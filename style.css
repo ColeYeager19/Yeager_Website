@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin-left: 6px;
+  padding: 0;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3vw;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.nav {
+  position: relative;
+  max-width: 17vw;
+  height: 790px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color: #000;
+  border: #000000;
+  float: left;
+
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	-webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+	text-align: center;
+}
+
